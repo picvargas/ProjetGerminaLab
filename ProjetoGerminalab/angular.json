@@ -14,7 +14,7 @@
           "builder": "@angular-devkit/build-angular:application",
           "options": {
             "outputPath": "dist/projeto-germinalab",
-            "index": "src/index.html",
+            "index": "src/pagHtml/login.html",
             "browser": "src/main.ts",
             "polyfills": [
               "zone.js"
@@ -27,7 +27,7 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/pagCss/login.css"
             ],
             "scripts": []
           },
@@ -92,5 +92,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "d19c4ba7-3bb8-47f9-a1f9-f6e10ff01f6a"
   }
 }

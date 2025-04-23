@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login de usuário</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <a href="#"><img src="icons/casa.png" alt="casa"></a>
+            <a href="#"><img src="icons/banco.png" alt="banco"></a>
+            <a href="#"><img src="icons/cartao.png" alt="cartao"></a>
+            <a href="#"><img src="icons/foto.png" alt="foto"></a>
+        </div>
+        <div class="content">
+            <div class="header">
+                <div>
+                    <img src="icons/estelar-logo.png" alt="Estelar Logo">
+                </div>
+            </div>
+            <div class="breadcrumb">
+                <a href="#">Início</a> &gt; <a href="#">Laboratório de Germinares</a>
+            </div>
+            <div class="form-container">
+                <h2>Laboratório de Germinares</h2>
+                <p>Realize o login! Caso seja seu primeiro acesso, faça o cadastro.</p>
+                <input type="email" id="email" name="email" placeholder="E-mail">
+                <input type="password" id="senha" name="senha" placeholder="Senha">
+
+                <div class="form-actions">
+                    <button type="button" id="cadastrar-btn" onclick="cadastrar()">Cadastrar</button>
+                    <button type="button" id="login-btn" onclick="login()">Fazer login</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
