@@ -1,8 +1,49 @@
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 8px 20px;
+    background-color: white;
+    height: 50px;
 }
-.leftnav{
+
+.leftnav {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 30px;
+}
+
+.rightnav {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.icon {
+    height: 22px;
+    cursor: pointer;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px grey solid;
+    border-radius: 50px;
+    height: 32px;    
+}
+
+.dropdown {
+    margin-left: 5px;
+    width: 12px;
+    height: 12px;
+}
+
+.avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
 }
