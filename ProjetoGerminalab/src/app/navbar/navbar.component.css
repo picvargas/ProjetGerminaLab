@@ -5,6 +5,7 @@
     padding: 8px 20px;
     background-color: white;
     height: 50px;
+    box-shadow: 0 7px 32px rgba(0, 0, 0, 0.1);
 }
 
 .leftnav {
@@ -31,7 +32,7 @@
     display: flex;
     align-items: center;
     gap: 8px;
-    border: 1px grey solid;
+    border: 1px rgb(234, 226, 226) solid;
     border-radius: 50px;
     height: 32px;    
 }

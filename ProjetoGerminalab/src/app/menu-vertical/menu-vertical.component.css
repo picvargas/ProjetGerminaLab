@@ -1,0 +1,24 @@
+.sidebar{
+    display: flex;
+    width: fit-content;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 30px;
+    height: 100vh;
+    border-right: 1px solid rgb(234, 226, 226);
+}
+.sidebar img{
+    width: 25px;
+}
+.topSidebar{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.bottomSidebar{
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    width: fit-content;
+    justify-content: end;
+}
