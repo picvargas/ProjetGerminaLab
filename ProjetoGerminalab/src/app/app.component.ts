@@ -5,7 +5,7 @@ import { MenuVerticalComponent } from "./menu-vertical/menu-vertical.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, NavbarComponent],
+  imports: [RouterOutlet, NavbarComponent, MenuVerticalComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
